@@ -1,0 +1,53 @@
+body{ /* element Selector */
+    /* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+    background-image: -webkit-linear-gradient(left,#5CC3E2,#9914e9);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.r-crose{
+    float: right;
+    color: #000;
+    font-size: large;
+}
+.r-form{
+    width: 460px;
+    
+    background-color:#fff;
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+    padding: 32px;
+}
+.r-form h1{
+    text-align: center;
+    
+}
+.r-form-field input{
+    display: block;
+    width: 99%;
+    height: 50px;
+    border:1px solid #dbdbdb;
+}
+.r-form-field{
+    margin-bottom: 10px;
+}
+.r-form a.btn{
+    color:#6d97c9;
+    text-decoration: none;
+}
+.r-block{
+    display: block;
+}
+.mybtn{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: -webkit-linear-gradient(left,#5bc4e2,#9914e9);
+}
+.text-white{
+    color:#fff !important;
+}
+.border-0{
+    border:none !important;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
