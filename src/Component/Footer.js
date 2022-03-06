@@ -6,7 +6,7 @@ export default function Footer() {
   return (
   
     <>
-      <div className='bg-danger'>
+      <div className='bg-white'>
         <Container  style={{ width: '100%', height: "250px" }}>
             <Row  className='pt-5'>
               <Col className="col-4 " style={{border:"2px solid black", color:"white"}}>

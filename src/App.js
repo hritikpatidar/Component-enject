@@ -3,7 +3,6 @@ import Login from './Pages/Login';
 import Register from './Pages/Register';
 import GetTeacher from './Pages/GetTeacher';
 import Error404 from './Pages/Error404';
-import Home from './Pages/Home';
 import EditTeacher from './Pages/EditTeacher';
 
 function App() {
@@ -11,8 +10,9 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={ <Home /> }/>
+          <Route path='/' element={ <Login /> }/>
           <Route path='/login' element={ <Login /> }/>
+          <Route path='/logout' element={ <Login /> }/>
           <Route path='/register' element={ <Register /> }/>
           <Route path='/get_teacher' element={ <GetTeacher /> }/>
           <Route path='/edit_teacher/:stu_id' element={ <EditTeacher /> }/>

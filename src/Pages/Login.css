@@ -1,6 +1,6 @@
 body{ /* element Selector */
     /* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
-    background-image: -webkit-linear-gradient(left,#5CC3E2,#9914e9);
+    background-image: -webkit-linear-gradient(left,#9dacb1,#baadc2);
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,9 +30,10 @@ body{ /* element Selector */
 .r-form-field{
     margin-bottom: 10px;
 }
-.r-form a.btn{
+.r-form NavLink.btn{
     color:#6d97c9;
     text-decoration: none;
+    
 }
 .r-block{
     display: block;

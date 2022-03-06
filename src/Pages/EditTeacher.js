@@ -70,6 +70,7 @@ export default function EditStudent() {
             setIsLoader(false);
             setIsDisable(' ');
             swal("Good job!", "Friend Updated Succesfully", "success");
+            
         } ).catch( (err)=>{
             console.log(err);
         } );

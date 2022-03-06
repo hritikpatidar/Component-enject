@@ -31,7 +31,7 @@ export default function GetStudent() {
         setView(true);
     }
     let handleViewClose = ()=>{
-        console.log('okok');
+        //console.log('okok');
         setView(false);
     }
     let submitTeacher= (e)=>{

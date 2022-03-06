@@ -7,8 +7,9 @@ export default function Layout(props) {
       <>
         <br />
         <Header />
-       
+        <br />
         {props.children}
+        <br />
         
         <Footer />
       </>
