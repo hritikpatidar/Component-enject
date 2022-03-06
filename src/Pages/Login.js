@@ -85,9 +85,10 @@ export default function Login() {
   //3. return statement/ JSX
   return (
       <Layout>
-          <form className="r-form" onSubmit={(e)=>{logIn(e)}} >
+        <div className='row d-flex justify-content-center m-0'>
+          <form className=" col-6 r-form " onSubmit={(e)=>{logIn(e)}} >
             <a href="#" className="r-crose"><i className="fas fa-times" /></a>
-            <h1>Form Design</h1>
+            <h1>Login</h1>
             <div className="r-form-field">
               <label htmlFor="email" >Email or Phone</label>
               <input type="email" autoFocus id="identifier" name="identifier" className='R-email' onChange={(e)=>{handle(e);}} required />
@@ -103,6 +104,8 @@ export default function Login() {
             </div>
             
           </form>
+        </div>
+          
 
       </Layout>
     
