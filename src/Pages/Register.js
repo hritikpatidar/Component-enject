@@ -49,7 +49,7 @@ export default function Register() {
   }
   return (
     <Layout>
-          <div className="row">
+          <div className="row m-0">
             <div className="col-6 offset-3 mt-5">
               <h1 className="text-center">Register Form</h1>
               <form>
