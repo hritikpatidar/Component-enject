@@ -1,39 +1,27 @@
 
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
   
     <>
-      <div className='bg-white'>
-        <Container  style={{ width: '100%', height: "250px" }}>
-            <Row  className='pt-5'>
-              <Col className="col-4 " style={{border:"2px solid black", color:"white"}}>
-                <h4  className="ms-5">
-                  Ritik Patidar
-                </h4>   
-                <ul className="ms-5">
-                  <li>
-                    <a href="/">Home</a>
-                  </li>
-                  <li>
-                    <a href="/login">Login</a>
-                  </li>
-                  <li>
-                    <a href="/register">Register</a>
-                  </li>
-                  <li>
-                    <a href="/get_teacher">Get Teacher</a>
-                  </li>
-                </ul>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
+          
+          <div id="navbarNav">
+            <Navbar className="navbar-nav ms-5">
+                <Nav className="nav-item ms-5">
+                  <Link to="/register" className='nav-link'>About Us</Link>
+                  <Link to="/register" className='nav-link'>Contact</Link>
+                </Nav>
+              
+              </Navbar>
+          </div>
+        </div>
+      </nav>
 
-              </Col>
-              <Col style={{border:"2px solid black"}} border="primary" >2 of 2</Col>
-              <Col style={{border:"2px solid black"}} border="primary" >2 of 2</Col>
-            </Row>
-          </Container>
-      </div>
     </>
           
   )
