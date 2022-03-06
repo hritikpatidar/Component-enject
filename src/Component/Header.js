@@ -23,7 +23,15 @@ export default function Header() {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <Navbar className="navbar-nav me-auto mb-2 mb-lg-0">
+              <Nav className="nav-item">
+                <Link className="nav-link " to="/"  >Home</Link>
+                <Link to="/get_teacher" className='nav-link'>Get Teacher</Link>
+                <Link to="/register" className='nav-link'>About Us</Link>
+                <Link to="/register" className='nav-link'>Contact</Link>
+              </Nav>
             
+            </Navbar>
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-outline-success" type="button">Search</button>
