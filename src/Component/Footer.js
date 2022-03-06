@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 export default function Footer() {
