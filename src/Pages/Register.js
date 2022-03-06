@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Layout from '../Component/Layout'
 import swal from 'sweetalert';
-
+import './Login.css';
 export default function Register() {
   //1.state/ variable
   const [username, setUsername] = useState('');
@@ -49,8 +49,8 @@ export default function Register() {
   }
   return (
     <Layout>
-          <div className="row m-0">
-            <div className="col-6 offset-3 mt-5">
+          <div className="row m-0 d-flex justify-content-center ">
+            <div className="col-md-6 col-12  r-form mt-5">
               <h1 className="text-center">Register Form</h1>
               <form>
                 <input className="form-control" placeholder="Enter Username" type="text" name="username" value={ username } onChange={(e)=>{setUsername(e.target.value)}}/><br/>

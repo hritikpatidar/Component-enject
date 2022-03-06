@@ -86,7 +86,7 @@ export default function Login() {
   return (
       <Layout>
         <div className='row d-flex justify-content-center m-0'>
-          <form className=" col-6 r-form " onSubmit={(e)=>{logIn(e)}} >
+          <form className="col-md-6 col-12 r-form " onSubmit={(e)=>{logIn(e)}} >
             <a href="#" className="r-crose"><i className="fas fa-times" /></a>
             <h1>Login</h1>
             <div className="r-form-field">
